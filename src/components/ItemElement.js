@@ -19,8 +19,8 @@ function ItemElement({ id, frameworkName, leadBy, officialDocs }) {
     return(
             <Card sx={{minWidth: 275}}>
                 <CardContent>
-                    <Typography variant='h5' component='div'>${frameworkName}</Typography>
-                    <Typography variant='h5' component='div'>Lead by ${leadBy}</Typography>
+                    <Typography variant='h5' component='div'>{frameworkName}</Typography>
+                    <Typography variant='h5' component='div'>Lead by {leadBy}</Typography>
                     <Link href={officialDocs} underline='none' component='div'>Official Docs</Link>
                 </CardContent>
                 <CardActions>

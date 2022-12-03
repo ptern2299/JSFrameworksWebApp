@@ -1,6 +1,6 @@
 import './App.css';
 import React from 'react';
-import { Switch, Route } from 'react-router-dom';
+import {Route, Switch} from "react-router-dom";
 import MainPage from './containers/MainPage';
 import AddItemPage from './containers/AddItemPage';
 import EditItemPage from './containers/EditItemPage';
